@@ -1,0 +1,10 @@
+version: '3.8' 
+services: 
+  plataforma-salud: 
+    build: 
+      context: . 
+      dockerfile: Dockerfile 
+    container\_name: web_reserva_salud 
+    ports: 
+      - "8080:80" 
+    restart: always

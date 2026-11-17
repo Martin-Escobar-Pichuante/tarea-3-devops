@@ -1,0 +1,7 @@
+.env 
+*.local 
+*.log 
+.DS\_Store 
+Thumbs.db 
+.vscode/ 
+.idea/
